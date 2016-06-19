@@ -5,6 +5,12 @@ body{
 }
 .main{
     margin-left:35%;
+    background:#FFFFF9;
+    width: 302px;
+    height:595px;
+    border:2px solid gray;
+    border-radius: 10px;
+    background-size:100%;
 }
 #enem{
     width:300px;
@@ -15,8 +21,10 @@ body{
     background-size:100% 100%;
 }
 #enemy{
-    width:100%;
-    height:100%;
+    width:90%;
+    height:91%;
+	margin-left:5%;
+	margin-top:5%;
     background-repeat: no-repeat;
     background-size:100% 100%;
 }
@@ -32,6 +40,8 @@ body{
     background-repeat: no-repeat;
     background-size:100% 100%; 
     display:none;
+    position:absolute;
+	margin-top:22px;
 }
 #bow{
     width:60px;
@@ -41,9 +51,77 @@ body{
     background-repeat: no-repeat;
     background-size:100% 100%; 
     display:none;
+    position:absolute;
+    margin-top: 85px;
+}
+#torch{
+    width:60px;
+    height:60px;
+    border: 1px solid black;
+    background-image:url(img/torch.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    display:none;
+    position:absolute;
+    margin-left:63px;
+    margin-bottom: 60px;
+	margin-top:22px;
+}
+#axe{
+    width:60px;
+    height:60px;
+    border: 1px solid black;
+    background-image:url(img/axe.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    display:none;
+    position:absolute;
+    margin-left:63px;
+    margin-top: 85px;
+}
+#gold{
+    width:60px;
+    height:60px;
+    border: 1px solid black;
+    background-image:url(img/gold.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    display:none;
+    position:absolute;
+    margin-left:239px;
+    margin-top: 22px;
 }
 #hp{
     width:100px;
     height:10px;
     background:red;
+}
+#swordup{
+	display:none;
+	position:absolute;
+	margin-left:51px;
+}
+#mouseup{
+	position:absolute;
+	
+}
+#bowup{
+	display:none;
+	position:absolute;
+	margin-left:110px;
+}
+#torchup{
+	display:none;
+	position:absolute;
+	margin-left:158px;
+}
+#axeup{
+	display:none;
+	position:absolute;
+	margin-left:211px;
+}
+#goldup{
+	display:none;
+	position:absolute;
+	margin-left:254px;
 }
